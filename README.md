@@ -41,7 +41,7 @@ JaCoP solver contains also front-end for FlatZinc language that makes it possibl
 us to perform extensive testing with the help of other solvers as we can compare results from different solvers.
 
 JaCoP is an ongoing activity. We are working on it in our free time. The most recent addition is Scala based DSL so
-it is easier to create your own constraint programs even in more intuitive manner.
+you can create your own constraint programs more intuitively.
 
 Getting started
 ---------------
@@ -50,13 +50,13 @@ The easiest way to make jar file for JaCoP is to use maven. First, install maven
 
     mvn install -DskipTests
 
-The jar file will be generated into directory jacop/target.
+The jar file will be generated into the `target` directory.
 
 One can test the setup by running:
 
     java -jar target/jacop-x.x.x.jar fd.Sudoku
 
-Where `fd` stands for 'finite domain'. See the `src/main/java/org/jacop/examples/` for more examples.
+Where `fd` stands for 'finite domain'. See the `src/main/java/org/jacop/examples/` directory for more examples.
 
 Compilation
 -----------
