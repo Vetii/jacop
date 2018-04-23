@@ -54,9 +54,9 @@ The jar file will be generated into directory jacop/target.
 
 One can test the setup by running:
 
-    java -jar jacop/target/jacop-x.x.x.jar fd.Sudoku
+    java -jar target/jacop-x.x.x.jar fd.Sudoku
 
-Where ´fd´ stands for 'finite domain'. See the ´jacop/src/main/java/org/jacop/examples/´ for more examples.
+Where `fd` stands for 'finite domain'. See the `src/main/java/org/jacop/examples/` for more examples.
 
 Compilation
 -----------
